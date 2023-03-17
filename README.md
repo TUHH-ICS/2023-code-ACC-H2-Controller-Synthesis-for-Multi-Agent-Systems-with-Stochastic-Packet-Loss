@@ -1,4 +1,4 @@
-# Distributed H2 Controller Synthesis for Multi-Agent Systems with Stochastic Packet Loss
+# Distributed H₂ Controller Synthesis for Multi-Agent Systems with Stochastic Packet Loss
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7125045.svg)](https://doi.org/10.5281/zenodo.7125045)
 
@@ -6,7 +6,7 @@
 
 This repository contains an implementation of the algorithms and simulations described in the paper
 
-> C. Hespe, A. Datar, D. Schneider, H. Saadabadi, H. Werner and H. Frey, "Distributed H2 Controller Synthesis for Multi-Agent Systems with Stochastic Packet Loss", submitted to ACC 2023.
+> C. Hespe, A. Datar, D. Schneider, H. Saadabadi, H. Werner, and H. Frey, "Distributed H₂ Controller Synthesis for Multi-Agent Systems with Stochastic Packet Loss," in *American Control Conference*. IEEE, 2023.
 
 It may be used to recreate and validate the figures from the paper.
 To do so, run either of the two main entry points in the repository, the scripts `validate_bernoulli.m`, and `evaluate_sinr.m`.
@@ -17,6 +17,7 @@ The raw data used in the figures in the paper is available in the subdirectory `
 
 Both of the main entry points will run simulations of multi-agent systems with packet loss.
 For that purpose, an open source library which can be found [on Github](https://github.com/TUHH-ICS/MAS-Simulation) is utilized.
+The repository is included as a git submodule and needs to be initialized using `git submodule update --init`.
 The simulation run by `evaluate_sinr.m` require the compiled components of the SINR part of that library, so be sure to set up a C++ compiler for you system for use in Matlab first.
 Steps to do so are described [here](https://github.com/TUHH-ICS/MAS-Simulation#using-the-sinr-networking-library).
 
