@@ -6,7 +6,7 @@
 
 This repository contains an implementation of the algorithms and simulations described in the paper
 
-> C. Hespe, A. Datar, D. Schneider, H. Saadabadi, H. Werner, and H. Frey, "Distributed H₂ Controller Synthesis for Multi-Agent Systems with Stochastic Packet Loss," in *American Control Conference*. IEEE, 2023.
+> C. Hespe, A. Datar, D. Schneider, H. Saadabadi, H. Werner, and H. Frey, "Distributed H₂ Controller Synthesis for Multi-Agent Systems with Stochastic Packet Loss," *American Control Conference*. San Diego, CA, USA, 2023, doi: [10.23919/ACC55779.2023.10156194](https://doi.org/10.23919/ACC55779.2023.10156194).
 
 It may be used to recreate and validate the figures from the paper.
 To do so, run either of the two main entry points in the repository, the scripts `validate_bernoulli.m`, and `evaluate_sinr.m`.
