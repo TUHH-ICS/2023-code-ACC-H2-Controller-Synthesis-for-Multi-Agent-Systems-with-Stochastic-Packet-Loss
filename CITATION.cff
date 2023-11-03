@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+title: Distributed H2 Controller Synthesis for Multi-Agent Systems with Stochastic Packet Loss
+message: If you use this software, please cite it using the metadata from this file.
+type: software
+authors:
+  - given-names: Christian
+    family-names: Hespe
+    affiliation: Hamburg University of Technology, Institute of Control Systems
+    orcid: 'https://orcid.org/0000-0001-5772-9044'
+  - given-names: Adwait
+    family-names: Datar
+    affiliation: Hamburg University of Technology, Institute of Control Systems
+    orcid: 'https://orcid.org/0000-0002-4085-9675'
+  - given-names: Daniel
+    family-names: Schneider
+    affiliation: University of Koblenz, Institute for Computer Science
+    orcid: 'https://orcid.org/0000-0002-6227-5777'
+  - given-names: Hamideh
+    family-names: Saadabadi
+    affiliation: Hamburg University of Technology, Institute of Control Systems
+    orcid: 'https://orcid.org/0000-0002-1186-888X'
+  - given-names: Herbert
+    family-names: Werner
+    affiliation: Hamburg University of Technology, Institute of Control Systems
+    orcid: 'https://orcid.org/0000-0003-3456-5539'
+  - given-names: Hannes
+    family-names: Frey
+    affiliation: University of Koblenz, Institute for Computer Science
+identifiers:
+  - type: doi
+    value: 10.23919/ACC55779.2023.10156194
+    description: DOI of the accompanying paper
+  - type: doi
+    value: 10.5281/zenodo.7125045
+    description: DOI of the Zenodo archive
+repository-code: https://github.com/TUHH-ICS/2023-code-ACC-H2-Controller-Synthesis-for-Multi-Agent-Systems-with-Stochastic-Packet-Loss
+keywords:
+  - multiagent systems
+  - packet loss
+  - controller synthesis
+  - signal-to-interference-plus-noise-ratio
+license: GPL-3.0
